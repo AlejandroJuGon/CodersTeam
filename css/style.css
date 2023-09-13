@@ -38,3 +38,7 @@ text-align: center;
 .coders{
     background-color: var(--pink);
 }
+
+.container-coder h2{
+color: white;
+}
