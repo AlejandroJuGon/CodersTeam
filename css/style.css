@@ -1,0 +1,12 @@
+:root{
+    --pink: #FF7F99;
+    --yellow: #FFCA41;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
