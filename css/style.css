@@ -19,3 +19,13 @@ h1{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.perfil{
+ width:150px;
+ height:150px;   
+}
+
+.icono{
+    width: 30px;
+    height:30px;   
+   }
