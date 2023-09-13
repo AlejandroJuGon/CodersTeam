@@ -21,11 +21,19 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .perfil{
- width:10vw;
- height:10vw;   
+    width:10vw;
+    height:10vw;   
 }
 
 .icono{
     width: 3vw;
     height:3vw;   
+}
+
+.container img{
+    border-radius: 100%;
+}
+
+.coders{
+    background-color: var(--pink);
 }
