@@ -23,6 +23,8 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 .perfil{
     width:10vw;
     height:10vw;   
+    border-radius: 100%;
+
 }
 
 .icono{
@@ -30,9 +32,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
     height:3vw;   
 }
 
-.container img{
-    border-radius: 100%;
-}
+
 
 .coders{
     background-color: var(--pink);
