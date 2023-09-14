@@ -17,14 +17,15 @@ h1 {
 .Header_8vh {
     background-color: #FF7F99;
     height: 8vh;
-    border-left: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .paddingRight {
     padding-right: 2vw;
 }
+
 .labelWe {
     background: #FF7F99;
     border-color: #FF7F99;
@@ -33,24 +34,41 @@ h1 {
     font-weight: bold;
     color: whitesmoke;
     padding-left: 20px;
+    cursor: pointer;
 }
+
 .colorFFCA41 {
     font-size: 18pt;
     font-weight: bold;
     color: #FFCA41;
 }
+
 .roundCorner {
     background: #FF7F99;
     border-color: #FF7F99;
     border-style: none;
     border-width: thin;
     border-radius: 20px 20px 20px 20px;
-    height: 5vh;
-    width: 8vw;
+    height: 5vh;  
     padding-left: 10px;
     padding-right: 10px;
     color: whitesmoke;
+    cursor: pointer;
 }
+
 .roundCorner:hover {
     background: #ffc94181;
+}
+
+@media (max-width: 200px) {
+    /* Adaptar la cabecera para móviles Android */
+
+    .paddingRight {
+        padding-right: 0vw;
+    }
+
+    .roundCorner {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
 }
