@@ -230,11 +230,6 @@ color: white;
     
   }
 
-  .terminal {  
-    padding: 10px;
-    width: 300px;
-    overflow: hidden;
-  }
   
   .line {
     opacity: 0;
