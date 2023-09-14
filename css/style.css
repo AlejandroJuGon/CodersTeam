@@ -160,6 +160,7 @@ color: white;
 
 .about-text-button { 
     background-color: var(--yellow);
+    
 }
 
 @media (max-width: 768px){
