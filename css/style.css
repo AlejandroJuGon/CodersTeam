@@ -73,19 +73,6 @@ h1 {
     }
 }
 
-:root{
-    --pink: #FF7F99;
-    --yellow: #FFCA41;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-}
-
-
 
 
 .coders{
@@ -95,8 +82,8 @@ text-align: center;
 }
 
 .perfil{
-    width:10vw;
-    height:10vw;   
+    width:15vw;
+    height:15vw;   
     border-radius: 100%;
     transition: transform 1s ease;
 }
@@ -125,6 +112,31 @@ color: white;
 
 @media (max-width: 768px){
     .coders{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+
+    .icono{
+        width: 5vw;
+        height:5vw;
+
+    }
+
+    .perfil{
+        width:30vw;
+        height:30vw;
+    }
+  
+  
+    
+  }
+
+  
+
+
+  @media (max-width: 478px){
+    .coders{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -144,6 +156,3 @@ color: white;
   
     
   }
-
-
-
