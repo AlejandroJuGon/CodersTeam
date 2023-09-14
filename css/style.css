@@ -9,9 +9,11 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
-
-h1 {
-    color: var(--)
+a{
+    text-decoration: none;
+}
+.about-text-subtitle h1 {
+    color: var(--pink)
 }
 
 .Header_8vh {
@@ -132,6 +134,7 @@ color: white;
     position: relative;
     width: 50vh;
     height: 50vh;
+    margin-left: 5rem;
     background-color: var(--pink);
     border-radius: 100% 0px 100% 100%;
     display: flex;
@@ -148,9 +151,23 @@ color: white;
     z-index: 1;
 }
 
+.btn-contact{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 12rem;
+    height: 2rem;
+
+}
+
+.icon-coder{
+    width: 2rem;
+    height: 2rem;
+
+}
+
 .about-text-heading {
     text-align: left;
-    color: var(--pink);
     font-size: xx-large;
 }
 
@@ -160,7 +177,12 @@ color: white;
 
 .about-text-button { 
     background-color: var(--yellow);
+<<<<<<< HEAD
     
+=======
+    margin-left: 10px;
+    width: 12rem;
+>>>>>>> c9eba7c9307311bf08686405bae12e7a3d0bf9a0
 }
 
 @media (max-width: 768px){
