@@ -61,7 +61,7 @@ h1 {
 }
 
 @media (max-width: 200px) {
-    /* Adaptar la cabecera para móviles Android */
+   
 
     .paddingRight {
         padding-right: 0vw;
