@@ -61,7 +61,7 @@ h1 {
 }
 
 @media (max-width: 200px) {
-    /* Adaptar la cabecera para móviles Android */
+   
 
     .paddingRight {
         padding-right: 0vw;
@@ -90,8 +90,8 @@ text-align: center;
 
 
 .perfil{
-    width:15vw;
-    height:15vw;   
+    width:12vw;
+    height:12vw;   
     border-radius: 100%;
     transition: transform 1s ease;
 }
