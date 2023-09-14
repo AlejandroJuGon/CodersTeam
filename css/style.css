@@ -29,12 +29,15 @@ text-align: center;
 }
 
 .icono{
+    width: 2vw;
+    height:2vw;
+    transition: 0.5s;   
+}
+
+.icono:hover{
     width: 3vw;
     height:3vw;   
 }
-
-
-
 .coders{
     background-color: var(--pink);
 }
