@@ -49,3 +49,28 @@ text-align: center;
 .container-coder h2{
 color: white;
 }
+
+@media (max-width: 768px){
+    .coders{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 150vh;
+    }
+
+    .icono{
+        width: 5vw;
+        height:5vw;
+
+    }
+
+    .perfil{
+        width:40vw;
+        height:40vw;
+    }
+  
+  
+    
+  }
+
+
