@@ -15,7 +15,7 @@ h1 {
 }
 
 .Header_8vh {
-    background-color: #FF7F99;
+    background-color: var(--pink);
     height: 8vh;
     display: flex;
     justify-content: space-between;
@@ -27,8 +27,8 @@ h1 {
 }
 
 .labelWe {
-    background: #FF7F99;
-    border-color: #FF7F99;
+    background: var(--pink);
+    border-color: var(--pink);
     border-style: none;
     font-size: 18pt;
     font-weight: bold;
@@ -37,19 +37,19 @@ h1 {
     cursor: pointer;
 }
 
-.colorFFCA41 {
+.Yellow {
     font-size: 18pt;
     font-weight: bold;
-    color: #FFCA41;
+    color: var(--yellow);
 }
 
 .roundCorner {
-    background: #FF7F99;
-    border-color: #FF7F99;
+    background: var(--pink);
+    border-color: var(--pink);
     border-style: none;
     border-width: thin;
     border-radius: 20px 20px 20px 20px;
-    height: 5vh;  
+    height: 5vh;
     padding-left: 10px;
     padding-right: 10px;
     color: whitesmoke;
