@@ -81,6 +81,14 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 text-align: center;
 }
 
+.coders-card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
 .perfil{
     width:15vw;
     height:15vw;   
@@ -132,8 +140,6 @@ color: white;
     
   }
 
-  
-
 
   @media (max-width: 478px){
     .coders{
@@ -160,6 +166,8 @@ color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   
 }
 
