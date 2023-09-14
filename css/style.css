@@ -124,21 +124,25 @@ color: white;
     justify-content: space-around;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 4rem;
   
 }
 
 .about-figure {
     position: relative;
-    width: 300px;
-    height:300px;
+    width: 50vh;
+    height: 50vh;
     background-color: var(--pink);
     border-radius: 100% 0px 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-figure img {
     border-radius: 100%;
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     object-fit: cover;
     position: relative;
     z-index: 1;
