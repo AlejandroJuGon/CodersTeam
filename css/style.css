@@ -156,3 +156,40 @@ color: white;
   
     
   }
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+  
+}
+
+.about-figure {
+    position: relative;
+    width: 300px;
+    height:300px;
+    background-color: var(--pink);
+    border-radius: 100% 0px 100% 100%;
+}
+
+.about-figure img {
+    border-radius: 100%;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.about-text-heading {
+    text-align: left;
+    color: var(--pink);
+    font-size: xx-large;
+}
+
+.about-text-subtitle {
+    font-size:medium;
+}
+
+.about-text-button { 
+    background-color: var(--yellow);
+}
