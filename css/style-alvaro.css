@@ -150,6 +150,7 @@ color: white;
     position: relative;
     width: 50vh;
     height: 50vh;
+    margin-left: 5rem;
     background-color: var(--pink);
     border-radius: 100% 0px 100% 100%;
     display: flex;
