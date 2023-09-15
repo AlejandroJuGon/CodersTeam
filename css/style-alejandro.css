@@ -9,12 +9,6 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
-a{
-    text-decoration: none;
-}
-.about-text-subtitle h1 {
-    color: var(--pink)
-}
 
 .Header_8vh {
     background-color: var(--pink);
@@ -179,7 +173,6 @@ a{
     position: relative;
     width: 50vh;
     height: 50vh;
-    margin-left: 5rem;
     background-color: var(--pink);
     border-radius: 100% 0px 100% 100%;
     display: flex;
@@ -196,23 +189,9 @@ a{
     z-index: 1;
 }
 
-.btn-contact{
-    display: flex;
-    justify-content: flex-start;
-
-    width: 12rem;
-    height: 2rem;
-
-}
-
-.icon-coder{
-    width: 2rem;
-    height: 2rem;
-
-}
-
 .about-text-heading {
     text-align: left;
+    color: var(--pink);
     font-size: xx-large;
 }
 
@@ -222,13 +201,6 @@ a{
 
 .about-text-button {
     background-color: var(--yellow);
-    margin-left: 1rem;
-    width: 8rem;
-    height: 2.2rem;
-    border-radius: 2rem;
-    color: #FFFFFF;
-    border: none;
-
 }
 
 @media (max-width: 768px) {
@@ -259,26 +231,23 @@ a{
         flex-direction: column;
         align-items: center;
     }
-    
-    
-  }
 
-  
-  .line {
-    opacity: 0;
-    animation: appear 2s forwards infinite;
-    margin-bottom: 5px;
-  }
-  
-  @keyframes appear {
-    0% {
-      opacity: 0;
+    .icono {
+        width: 5vw;
+        height: 5vw;
+
     }
-    50% {
-      opacity: 1;
+
+    .perfil {
+        width: 40vw;
+        height: 40vw;
     }
-    100% {
-      opacity: 0;
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-  }
-  
+
+
+}
