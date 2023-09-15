@@ -230,6 +230,7 @@ text-align: center;
     border-radius: 2rem;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 .line {
