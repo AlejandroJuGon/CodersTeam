@@ -239,7 +239,7 @@ text-align: center;
 .line {
     opacity: 0;
     animation: appear 2s forwards infinite;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 @keyframes appear {
@@ -264,16 +264,17 @@ text-align: center;
     .icono{
         width: 5vw;
         height:5vw;
-
     }
 
     .perfil{
         width:30vw;
         height:30vw;
     }
-  
-  
-    
+
+    .about-figure{
+        margin: 0;
+    }
+
   }
 
 @media (max-width: 575px){
@@ -299,6 +300,6 @@ text-align: center;
         flex-direction: column;
         align-items: center;
     }
-    
+
     
   }
