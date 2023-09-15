@@ -123,6 +123,10 @@ a{
  display: flex;
  align-items: center;
 }
+
+.about-text-heading{
+    color: var(--pink);
+}
  .coders{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
