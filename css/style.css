@@ -222,13 +222,8 @@ a{
 
 .about-text-button {
     background-color: var(--yellow);
-    margin-left: 1rem;
-    width: 8rem;
-    height: 2.2rem;
-    border-radius: 2rem;
-    color: #FFFFFF;
-    border: none;
-
+    margin-left: 10px;
+    width: 12rem;
 }
 
 @media (max-width: 768px) {
