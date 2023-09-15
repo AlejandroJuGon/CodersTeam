@@ -13,7 +13,8 @@ a{
     text-decoration: none;
 }
 .about-text-subtitle h1 {
-    color: var(--pink)
+    color: var(--pink);
+    font-size: 2.5rem;
 }
 
 .Header_8vh {
