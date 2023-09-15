@@ -89,6 +89,7 @@ h1 {
 .alinear{
  display: flex;
  align-items: center;
+
 }
  .coders{
 display: grid;
@@ -175,6 +176,12 @@ color: white;
 
 .about-text-button { 
     background-color: var(--yellow);
+    margin-left: 1rem;
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 2rem;
+    color: #FFFFFF;
+    border: none;
 }
 
 @media (max-width: 768px){
