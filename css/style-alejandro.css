@@ -65,12 +65,12 @@
     padding-bottom: 0px;
     font-size: 32pt;
     font-weight: bold;
-    line-height: 0em;
 }
 
 .textName p:nth-child(2){
-    margin-top: -20px
+    margin-top: -25px
 }
+
 .boxEmployee {
     width: 74%;
 }
@@ -179,6 +179,7 @@
     position: relative;
     width: 50vh;
     height: 50vh;
+    margin-left: 5rem;
     background-color: var(--pink);
     border-radius: 100% 0px 100% 100%;
     display: flex;
@@ -198,6 +199,7 @@
 .about-text{
     display: flex;
     flex-direction: column;
+    
 }
 .about-text-heading {
     text-align: left;
