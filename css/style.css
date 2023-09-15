@@ -224,9 +224,31 @@ text-align: center;
 
 .about-text-button {
     background-color: var(--yellow);
-    margin-left: 10px;
-    width: 12rem;
+    margin-left: 1rem;
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 2rem;
+    color: #FFFFFF;
+    border: none;
 }
+
+.line {
+    opacity: 0;
+    animation: appear 2s forwards infinite;
+    margin-bottom: 5px;
+}
+
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 
 @media (max-width: 768px){
     .coders{
