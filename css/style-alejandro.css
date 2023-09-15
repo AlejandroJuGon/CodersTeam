@@ -9,7 +9,9 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 .Header_8vh {
     background-color: var(--pink);
     height: 8vh;
