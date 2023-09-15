@@ -65,8 +65,11 @@
     font-weight: bold;
 }
 
+.textName p:nth-child(2){
+    margin-top: -20px
+}
 .boxEmployee {
-    width: 34vw;
+    width: 74%;
 }
 .roundCornerYellow {
     background: var(--yellow);
